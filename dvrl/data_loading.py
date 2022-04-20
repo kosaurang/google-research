@@ -32,8 +32,7 @@ from sklearn import preprocessing
 import tensorflow.compat.v1 as tf
 from tensorflow.compat.v1.keras import backend
 from tensorflow.compat.v1.keras import datasets
-
-from dvrl import dvrl_utils
+import dvrl_utils
 
 
 def load_tabular_data(data_name, dict_no, noise_rate):
